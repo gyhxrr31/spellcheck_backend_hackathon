@@ -4,12 +4,15 @@ version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.13"
 dependencies = [
+    "alembic>=1.16.5",
     "fastapi>=0.116.2",
     "joblib>=1.5.2",
+    "jupyter>=1.1.1",
     "loguru>=0.7.3",
     "pip>=25.2",
     "pyspellchecker>=0.8.3",
     "scikit-learn>=1.7.2",
     "spacy>=3.8.7",
+    "sqlalchemy>=2.0.43",
     "uvicorn>=0.36.0",
 ]
